@@ -1,6 +1,17 @@
+Fully Public
 laravel new project_name   (create a project)
 php artisan serve         (run project)
 php artisan make:model student -msc   (create model,seeder and controller)
 php artisan make:controller StudentController --resource    (create contoller differ)
 php artisan migrate   (migrate tables in db)
 php artisan db:seed    (data seed into table)
+
+Protected
+php artisan make:controller UserController
+
+
+user register
+venky
+venky@gmail.com
+123456
+"token": "9|PhbQRJEhgAtftsOxigYnYnvfE0bRti0VXe9flaer"
