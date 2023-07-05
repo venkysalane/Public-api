@@ -1,0 +1,6 @@
+laravel new project_name   (create a project)
+php artisan serve         (run project)
+php artisan make:model student -msc   (create model,seeder and controller)
+php artisan make:controller StudentController --resource    (create contoller differ)
+php artisan migrate   (migrate tables in db)
+php artisan db:seed    (data seed into table)
