@@ -22,5 +22,5 @@ Route::post('/students', [StudentController::class, 'store']);
 Route::put('/students/{id}', [StudentController::class, 'update']);
 //Remove the specified resource
 Route::delete('/students/{id}', [StudentController::class, 'destroy']);
-//Remove the specified resource
+//search the specified resource based on city
 Route::get('/students/search/{city}', [StudentController::class, 'search']);
